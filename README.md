@@ -95,14 +95,14 @@ Each folder contains:
 
 | Problem | Java Solution | C++ Solution | Java Lecture | C++ Lecture |
 |----------|--------------|--------------|--------------|--------------|
-| [Parking Lot](./java/parking-lot) | [Java Code](./java/parking-lot) | [C++ Code](./cpp/parking-lot) | [Java Video](#) | [C++ Video](#) |
-| [Logging Framework](./java/logging-framework) | [Java Code](./java/logging-framework) | [C++ Code](./cpp/logging-framework) | [Java Video](#) | [C++ Video](#) |
-| [Task Management System](./java/task-management-system) | [Java Code](./java/task-management-system) | [C++ Code](./cpp/task-management-system) | [Java Video](#) | [C++ Video](#) |
-| [Vending Machine](./java/vending-machine) | [Java Code](./java/vending-machine) | [C++ Code](./cpp/vending-machine) | [Java Video](#) | [C++ Video](#) |
-| [Traffic Signal System](./java/traffic-signal-system) | [Java Code](./java/traffic-signal-system) | [C++ Code](./cpp/traffic-signal-system) | [Java Video](#) | [C++ Video](#) |
-| [Notification System](./java/notification-system) | [Java Code](./java/notification-system) | [C++ Code](./cpp/notification-system) | [Java Video](#) | [C++ Video](#) |
-| [Coffee Machine](./java/coffee-machine) | [Java Code](./java/coffee-machine) | [C++ Code](./cpp/coffee-machine) | [Java Video](#) | [C++ Video](#) |
-| [Stack Overflow (Mini)](./java/stack-overflow-mini) | [Java Code](./java/stack-overflow-mini) | [C++ Code](./cpp/stack-overflow-mini) | [Java Video](#) | [C++ Video](#) |
+| [Parking Lot](JAVA/parking-lot) | [Java Code](JAVA/parking-lot) | [C++ Code](./cpp/parking-lot) | [Java Video](#) | [C++ Video](#) |
+| [Logging Framework](JAVA/logging-framework) | [Java Code](JAVA/logging-framework) | [C++ Code](./cpp/logging-framework) | [Java Video](#) | [C++ Video](#) |
+| [Task Management System](JAVA/task-management-system) | [Java Code](JAVA/task-management-system) | [C++ Code](./cpp/task-management-system) | [Java Video](#) | [C++ Video](#) |
+| [Vending Machine](JAVA/vending-machine) | [Java Code](JAVA/vending-machine) | [C++ Code](./cpp/vending-machine) | [Java Video](#) | [C++ Video](#) |
+| [Traffic Signal System](JAVA/traffic-signal-system) | [Java Code](JAVA/traffic-signal-system) | [C++ Code](./cpp/traffic-signal-system) | [Java Video](#) | [C++ Video](#) |
+| [Notification System](JAVA/notification-system) | [Java Code](JAVA/notification-system) | [C++ Code](./cpp/notification-system) | [Java Video](#) | [C++ Video](#) |
+| [Coffee Machine](JAVA/coffee-machine) | [Java Code](JAVA/coffee-machine) | [C++ Code](./cpp/coffee-machine) | [Java Video](#) | [C++ Video](#) |
+| [Stack Overflow (Mini)](JAVA/stack-overflow-mini) | [Java Code](JAVA/stack-overflow-mini) | [C++ Code](./cpp/stack-overflow-mini) | [Java Video](#) | [C++ Video](#) |
 
 &nbsp;
 
@@ -110,20 +110,20 @@ Each folder contains:
 
 | Problem | Java Solution | C++ Solution | Java Lecture | C++ Lecture |
 |----------|--------------|--------------|--------------|--------------|
-| [LRU Cache](./java/lru-cache) | [Java Code](./java/lru-cache) | [C++ Code](./cpp/lru-cache) | [Java Video](#) | [C++ Video](#) |
-| [ATM](./java/atm) | [Java Code](./java/atm) | [C++ Code](./cpp/atm) | [Java Video](#) | [C++ Video](#) |
-| [Elevator System](./java/elevator-system) | [Java Code](./java/elevator-system) | [C++ Code](./cpp/elevator-system) | [Java Video](#) | [C++ Video](#) |
-| [Car Rental System](./java/car-rental-system) | [Java Code](./java/car-rental-system) | [C++ Code](./cpp/car-rental-system) | [Java Video](#) | [C++ Video](#) |
-| [Library Management System](./java/library-management-system) | [Java Code](./java/library-management-system) | [C++ Code](./cpp/library-management-system) | [Java Video](#) | [C++ Video](#) |
-| [Hotel Management System](./java/hotel-management-system) | [Java Code](./java/hotel-management-system) | [C++ Code](./cpp/hotel-management-system) | [Java Video](#) | [C++ Video](#) |
-| [Restaurant Management System](./java/restaurant-management-system) | [Java Code](./java/restaurant-management-system) | [C++ Code](./cpp/restaurant-management-system) | [Java Video](#) | [C++ Video](#) |
-| [Online Auction System](./java/online-auction-system) | [Java Code](./java/online-auction-system) | [C++ Code](./cpp/online-auction-system) | [Java Video](#) | [C++ Video](#) |
-| [Pub-Sub System](./java/pub-sub-system) | [Java Code](./java/pub-sub-system) | [C++ Code](./cpp/pub-sub-system) | [Java Video](#) | [C++ Video](#) |
-| [Rate Limiter](./java/rate-limiter) | [Java Code](./java/rate-limiter) | [C++ Code](./cpp/rate-limiter) | [Java Video](#) | [C++ Video](#) |
-| [URL Shortener](./java/url-shortener) | [Java Code](./java/url-shortener) | [C++ Code](./cpp/url-shortener) | [Java Video](#) | [C++ Video](#) |
-| [File System](./java/file-system) | [Java Code](./java/file-system) | [C++ Code](./cpp/file-system) | [Java Video](#) | [C++ Video](#) |
-| [Digital Wallet](./java/digital-wallet) | [Java Code](./java/digital-wallet) | [C++ Code](./cpp/digital-wallet) | [Java Video](#) | [C++ Video](#) |
-| [Tic-Tac-Toe](./java/tic-tac-toe) | [Java Code](./java/tic-tac-toe) | [C++ Code](./cpp/tic-tac-toe) | [Java Video](#) | [C++ Video](#) |
+| [LRU Cache](JAVA/lru-cache) | [Java Code](JAVA/lru-cache) | [C++ Code](./cpp/lru-cache) | [Java Video](#) | [C++ Video](#) |
+| [ATM](JAVA/atm) | [Java Code](JAVA/atm) | [C++ Code](./cpp/atm) | [Java Video](#) | [C++ Video](#) |
+| [Elevator System](JAVA/elevator-system) | [Java Code](JAVA/elevator-system) | [C++ Code](./cpp/elevator-system) | [Java Video](#) | [C++ Video](#) |
+| [Car Rental System](JAVA/car-rental-system) | [Java Code](JAVA/car-rental-system) | [C++ Code](./cpp/car-rental-system) | [Java Video](#) | [C++ Video](#) |
+| [Library Management System](JAVA/library-management-system) | [Java Code](JAVA/library-management-system) | [C++ Code](./cpp/library-management-system) | [Java Video](#) | [C++ Video](#) |
+| [Hotel Management System](JAVA/hotel-management-system) | [Java Code](JAVA/hotel-management-system) | [C++ Code](./cpp/hotel-management-system) | [Java Video](#) | [C++ Video](#) |
+| [Restaurant Management System](JAVA/restaurant-management-system) | [Java Code](JAVA/restaurant-management-system) | [C++ Code](./cpp/restaurant-management-system) | [Java Video](#) | [C++ Video](#) |
+| [Online Auction System](JAVA/online-auction-system) | [Java Code](JAVA/online-auction-system) | [C++ Code](./cpp/online-auction-system) | [Java Video](#) | [C++ Video](#) |
+| [Pub-Sub System](JAVA/pub-sub-system) | [Java Code](JAVA/pub-sub-system) | [C++ Code](./cpp/pub-sub-system) | [Java Video](#) | [C++ Video](#) |
+| [Rate Limiter](JAVA/rate-limiter) | [Java Code](JAVA/rate-limiter) | [C++ Code](./cpp/rate-limiter) | [Java Video](#) | [C++ Video](#) |
+| [URL Shortener](JAVA/url-shortener) | [Java Code](JAVA/url-shortener) | [C++ Code](./cpp/url-shortener) | [Java Video](#) | [C++ Video](#) |
+| [File System](JAVA/file-system) | [Java Code](JAVA/file-system) | [C++ Code](./cpp/file-system) | [Java Video](#) | [C++ Video](#) |
+| [Digital Wallet](JAVA/digital-wallet) | [Java Code](JAVA/digital-wallet) | [C++ Code](./cpp/digital-wallet) | [Java Video](#) | [C++ Video](#) |
+| [Tic-Tac-Toe](JAVA/tic-tac-toe) | [Java Code](JAVA/tic-tac-toe) | [C++ Code](./cpp/tic-tac-toe) | [Java Video](#) | [C++ Video](#) |
 
 &nbsp;
 
@@ -131,19 +131,19 @@ Each folder contains:
 
 | Problem | Java Solution | C++ Solution | Java Lecture | C++ Lecture |
 |----------|--------------|--------------|--------------|--------------|
-| [Splitwise](./java/splitwise) | [Java Code](./java/splitwise) | [C++ Code](./cpp/splitwise) | [Java Video](#) | [C++ Video](#) |
-| [Chess Game](./java/chess-game) | [Java Code](./java/chess-game) | [C++ Code](./cpp/chess-game) | [Java Video](#) | [C++ Video](#) |
-| [Snake & Ladder Game](./java/snake-ladder-game) | [Java Code](./java/snake-ladder-game) | [C++ Code](./cpp/snake-ladder-game) | [Java Video](#) | [C++ Video](#) |
-| [CricInfo](./java/cricinfo) | [Java Code](./java/cricinfo) | [C++ Code](./cpp/cricinfo) | [Java Video](#) | [C++ Video](#) |
-| [Ride-Sharing System](./java/ride-sharing-system) | [Java Code](./java/ride-sharing-system) | [C++ Code](./cpp/ride-sharing-system) | [Java Video](#) | [C++ Video](#) |
-| [Movie Ticket Booking System](./java/movie-ticket-booking-system) | [Java Code](./java/movie-ticket-booking-system) | [C++ Code](./cpp/movie-ticket-booking-system) | [Java Video](#) | [C++ Video](#) |
-| [Online Shopping System](./java/online-shopping-system) | [Java Code](./java/online-shopping-system) | [C++ Code](./cpp/online-shopping-system) | [Java Video](#) | [C++ Video](#) |
-| [Food Delivery System](./java/food-delivery-system) | [Java Code](./java/food-delivery-system) | [C++ Code](./cpp/food-delivery-system) | [Java Video](#) | [C++ Video](#) |
-| [Payment Gateway](./java/payment-gateway) | [Java Code](./java/payment-gateway) | [C++ Code](./cpp/payment-gateway) | [Java Video](#) | [C++ Video](#) |
-| [Music Streaming Service](./java/music-streaming-service) | [Java Code](./java/music-streaming-service) | [C++ Code](./cpp/music-streaming-service) | [Java Video](#) | [C++ Video](#) |
-| [Stock Brokerage System](./java/stock-brokerage-system) | [Java Code](./java/stock-brokerage-system) | [C++ Code](./cpp/stock-brokerage-system) | [Java Video](#) | [C++ Video](#) |
-| [Course Registration System](./java/course-registration-system) | [Java Code](./java/course-registration-system) | [C++ Code](./cpp/course-registration-system) | [Java Video](#) | [C++ Video](#) |
-| [Chat Application](./java/chat-application) | [Java Code](./java/chat-application) | [C++ Code](./cpp/chat-application) | [Java Video](#) | [C++ Video](#) |
+| [Splitwise](JAVA/splitwise) | [Java Code](JAVA/splitwise) | [C++ Code](./cpp/splitwise) | [Java Video](#) | [C++ Video](#) |
+| [Chess Game](JAVA/chess-game) | [Java Code](JAVA/chess-game) | [C++ Code](./cpp/chess-game) | [Java Video](#) | [C++ Video](#) |
+| [Snake & Ladder Game](JAVA/snake-ladder-game) | [Java Code](JAVA/snake-ladder-game) | [C++ Code](./cpp/snake-ladder-game) | [Java Video](#) | [C++ Video](#) |
+| [CricInfo](JAVA/cricinfo) | [Java Code](JAVA/cricinfo) | [C++ Code](./cpp/cricinfo) | [Java Video](#) | [C++ Video](#) |
+| [Ride-Sharing System](JAVA/ride-sharing-system) | [Java Code](JAVA/ride-sharing-system) | [C++ Code](./cpp/ride-sharing-system) | [Java Video](#) | [C++ Video](#) |
+| [Movie Ticket Booking System](JAVA/movie-ticket-booking-system) | [Java Code](JAVA/movie-ticket-booking-system) | [C++ Code](./cpp/movie-ticket-booking-system) | [Java Video](#) | [C++ Video](#) |
+| [Online Shopping System](JAVA/online-shopping-system) | [Java Code](JAVA/online-shopping-system) | [C++ Code](./cpp/online-shopping-system) | [Java Video](#) | [C++ Video](#) |
+| [Food Delivery System](JAVA/food-delivery-system) | [Java Code](JAVA/food-delivery-system) | [C++ Code](./cpp/food-delivery-system) | [Java Video](#) | [C++ Video](#) |
+| [Payment Gateway](JAVA/payment-gateway) | [Java Code](JAVA/payment-gateway) | [C++ Code](./cpp/payment-gateway) | [Java Video](#) | [C++ Video](#) |
+| [Music Streaming Service](JAVA/music-streaming-service) | [Java Code](JAVA/music-streaming-service) | [C++ Code](./cpp/music-streaming-service) | [Java Video](#) | [C++ Video](#) |
+| [Stock Brokerage System](JAVA/stock-brokerage-system) | [Java Code](JAVA/stock-brokerage-system) | [C++ Code](./cpp/stock-brokerage-system) | [Java Video](#) | [C++ Video](#) |
+| [Course Registration System](JAVA/course-registration-system) | [Java Code](JAVA/course-registration-system) | [C++ Code](./cpp/course-registration-system) | [Java Video](#) | [C++ Video](#) |
+| [Chat Application](JAVA/chat-application) | [Java Code](JAVA/chat-application) | [C++ Code](./cpp/chat-application) | [Java Video](#) | [C++ Video](#) |
 
 &nbsp;
 
