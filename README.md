@@ -93,16 +93,16 @@ Each folder contains:
 
 ## EASY Problems
 
-| Problem | Java Solution | C++ Solution | Java Lecture | C++ Lecture |
-|----------|--------------|--------------|--------------|--------------|
-| [Parking Lot](JAVA/parking-lot) | [Java Code](JAVA/parking-lot) | [C++ Code](./cpp/parking-lot) | [Java Video](#) | [C++ Video](#) |
-| [Logging Framework](JAVA/logging-framework) | [Java Code](JAVA/logging-framework) | [C++ Code](./cpp/logging-framework) | [Java Video](#) | [C++ Video](#) |
-| [Task Management System](JAVA/task-management-system) | [Java Code](JAVA/task-management-system) | [C++ Code](./cpp/task-management-system) | [Java Video](#) | [C++ Video](#) |
-| [Vending Machine](JAVA/vending-machine) | [Java Code](JAVA/vending-machine) | [C++ Code](./cpp/vending-machine) | [Java Video](#) | [C++ Video](#) |
-| [Traffic Signal System](JAVA/traffic-signal-system) | [Java Code](JAVA/traffic-signal-system) | [C++ Code](./cpp/traffic-signal-system) | [Java Video](#) | [C++ Video](#) |
-| [Notification System](JAVA/notification-system) | [Java Code](JAVA/notification-system) | [C++ Code](./cpp/notification-system) | [Java Video](#) | [C++ Video](#) |
-| [Coffee Machine](JAVA/coffee-machine) | [Java Code](JAVA/coffee-machine) | [C++ Code](./cpp/coffee-machine) | [Java Video](#) | [C++ Video](#) |
-| [Stack Overflow (Mini)](JAVA/stack-overflow-mini) | [Java Code](JAVA/stack-overflow-mini) | [C++ Code](./cpp/stack-overflow-mini) | [Java Video](#) | [C++ Video](#) |
+| Problem | Java Solution | C++ Solution | Java Lecture                                                   | C++ Lecture |
+|----------|--------------|--------------|----------------------------------------------------------------|--------------|
+| [Notification System](JAVA/parking-lot) | [Java Code](JAVA/parking-lot) | [C++ Code](./cpp/parking-lot) | [Lecture 02](https://youtu.be/Ma6zG5C4KNk?si=EK7SI2lRxPVpqYXr) | [C++ Video](#) |
+| [Logging Framework](JAVA/logging-framework) | [Java Code](JAVA/logging-framework) | [C++ Code](./cpp/logging-framework) | [Lecture 03](https://youtu.be/_GdGuYpZmEg?si=5bML1GPLsuU27OTN) | [C++ Video](#) |
+| [Task Management System](JAVA/task-management-system) | [Java Code](JAVA/task-management-system) | [C++ Code](./cpp/task-management-system) | [Java Video](#)                                                | [C++ Video](#) |
+| [Vending Machine](JAVA/vending-machine) | [Java Code](JAVA/vending-machine) | [C++ Code](./cpp/vending-machine) | [Java Video](#)                                                | [C++ Video](#) |
+| [Traffic Signal System](JAVA/traffic-signal-system) | [Java Code](JAVA/traffic-signal-system) | [C++ Code](./cpp/traffic-signal-system) | [Java Video](#)                                                | [C++ Video](#) |
+| [Parking Lot](JAVA/notification-system) | [Java Code](JAVA/notification-system) | [C++ Code](./cpp/notification-system) | [Java Video](#)                                                | [C++ Video](#) |
+| [Coffee Machine](JAVA/coffee-machine) | [Java Code](JAVA/coffee-machine) | [C++ Code](./cpp/coffee-machine) | [Java Video](#)                                                | [C++ Video](#) |
+| [Stack Overflow (Mini)](JAVA/stack-overflow-mini) | [Java Code](JAVA/stack-overflow-mini) | [C++ Code](./cpp/stack-overflow-mini) | [Java Video](#)                                                | [C++ Video](#) |
 
 &nbsp;
 
