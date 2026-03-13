@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class Inventory {
     private final Map<Item, Integer> stock = new ConcurrentHashMap<>();
 
-    public void addItem(Item item, int quantity) {
+    public synchronized void addItem(Item item, int quantity) {
         stock.put(item, stock.getOrDefault(item, 0) + quantity);
     }
 
@@ -16,7 +16,7 @@ public class Inventory {
         return stock.getOrDefault(item, 0) > 0;
     }
 
-    public void deductItem(Item item) {
+    public synchronized void deductItem(Item item) {
         if(!isItemAvailable(item)) {
             throw new IllegalArgumentException("Item is out of stock: " + item.getName());
         }
