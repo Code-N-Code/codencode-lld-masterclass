@@ -93,37 +93,37 @@ Each folder contains:
 
 ## EASY Problems
 
-| Problem | Java Solution | C++ Solution | Java Lecture                                                   | C++ Lecture |
-|----------|--------------|--------------|----------------------------------------------------------------|--------------|
-| [Notification System](JAVA/parking-lot) | [Java Code](JAVA/notificationsystem) | [C++ Code](./cpp/parking-lot) | [Lecture 02](https://youtu.be/Ma6zG5C4KNk?si=EK7SI2lRxPVpqYXr) | [C++ Video](#) |
-| [Logging Framework](JAVA/logging-framework) | [Java Code](JAVA/loggingframework) | [C++ Code](./cpp/logging-framework) | [Lecture 03](https://youtu.be/_GdGuYpZmEg?si=5bML1GPLsuU27OTN) | [C++ Video](#) |
-| [Task Management System](JAVA/task-management-system) | [Java Code](JAVA/task-management-system) | [C++ Code](./cpp/task-management-system) | [Java Video](#)                                                | [C++ Video](#) |
-| [Vending Machine](JAVA/vending-machine) | [Java Code](JAVA/vending-machine) | [C++ Code](./cpp/vending-machine) | [Java Video](#)                                                | [C++ Video](#) |
-| [Traffic Signal System](JAVA/traffic-signal-system) | [Java Code](JAVA/traffic-signal-system) | [C++ Code](./cpp/traffic-signal-system) | [Java Video](#)                                                | [C++ Video](#) |
-| [Parking Lot](JAVA/notification-system) | [Java Code](JAVA/notification-system) | [C++ Code](./cpp/notification-system) | [Java Video](#)                                                | [C++ Video](#) |
-| [Coffee Machine](JAVA/coffee-machine) | [Java Code](JAVA/coffee-machine) | [C++ Code](./cpp/coffee-machine) | [Java Video](#)                                                | [C++ Video](#) |
-| [Stack Overflow (Mini)](JAVA/stack-overflow-mini) | [Java Code](JAVA/stack-overflow-mini) | [C++ Code](./cpp/stack-overflow-mini) | [Java Video](#)                                                | [C++ Video](#) |
+| Problem | Java Solution                           | C++ Solution | Java Lecture                                                                                                      | C++ Lecture |
+|----------|-----------------------------------------|--------------|-------------------------------------------------------------------------------------------------------------------|--------------|
+| [Notification System](JAVA/parking-lot) | [Java Code](JAVA/notificationsystem)    | [C++ Code](./cpp/parking-lot) | [Lecture 02](https://youtu.be/Ma6zG5C4KNk?si=EK7SI2lRxPVpqYXr)                                                    | [C++ Video](#) |
+| [Logging Framework](JAVA/logging-framework) | [Java Code](JAVA/loggingframework)      | [C++ Code](./cpp/logging-framework) | [Lecture 03](https://youtu.be/_GdGuYpZmEg?si=5bML1GPLsuU27OTN)                                                    | [C++ Video](#) |
+| [Parking Lot](JAVA/parkinglot) | [Java Code](JAVA/parkinglot)               | [C++ Code](./cpp/task-management-system) | [Lecture 04](https://www.youtube.com/watch?v=wIo7igW3sW4&list=PL5DyztRVgtRXc38XDgmL34o1pp7U__hDK&index=5&pp=iAQB) | [C++ Video](#) |
+| [Vending Machine](JAVA/vending-machine) | [Java Code](JAVA/vending-machine)       | [C++ Code](./cpp/vending-machine) | [Lecture 05](https://www.youtube.com/watch?v=SxWF_RKQxEc&list=PL5DyztRVgtRXc38XDgmL34o1pp7U__hDK&index=6&pp=iAQB) | [C++ Video](#) |
+| [Task Management System](JAVA/taskmanagement) | [Java Code](JAVA/taskmanagement) | [C++ Code](./cpp/traffic-signal-system) | [Lecture 06](https://www.youtube.com/watch?v=rEPNruXeI0U&list=PL5DyztRVgtRXc38XDgmL34o1pp7U__hDK&index=8&pp=iAQB) | [C++ Video](#) |
+| [Traffic Signal System](JAVA/notification-system) | [Java Code](JAVA/notification-system)   | [C++ Code](./cpp/notification-system) | [Java Video](#)                                                                                                   | [C++ Video](#) |
+| [Coffee Machine](JAVA/coffee-machine) | [Java Code](JAVA/coffee-machine)        | [C++ Code](./cpp/coffee-machine) | [Java Video](#)                                                                                                   | [C++ Video](#) |
+| [Stack Overflow (Mini)](JAVA/stack-overflow-mini) | [Java Code](JAVA/stack-overflow-mini)   | [C++ Code](./cpp/stack-overflow-mini) | [Java Video](#)                                                                                                   | [C++ Video](#) |
 
 &nbsp;
 
 ## MEDIUM Problems
 
-| Problem | Java Solution | C++ Solution | Java Lecture | C++ Lecture |
-|----------|--------------|--------------|--------------|--------------|
-| [LRU Cache](JAVA/lru-cache) | [Java Code](JAVA/lru-cache) | [C++ Code](./cpp/lru-cache) | [Java Video](#) | [C++ Video](#) |
-| [ATM](JAVA/atm) | [Java Code](JAVA/atm) | [C++ Code](./cpp/atm) | [Java Video](#) | [C++ Video](#) |
-| [Elevator System](JAVA/elevator-system) | [Java Code](JAVA/elevator-system) | [C++ Code](./cpp/elevator-system) | [Java Video](#) | [C++ Video](#) |
-| [Car Rental System](JAVA/car-rental-system) | [Java Code](JAVA/car-rental-system) | [C++ Code](./cpp/car-rental-system) | [Java Video](#) | [C++ Video](#) |
-| [Library Management System](JAVA/library-management-system) | [Java Code](JAVA/library-management-system) | [C++ Code](./cpp/library-management-system) | [Java Video](#) | [C++ Video](#) |
-| [Hotel Management System](JAVA/hotel-management-system) | [Java Code](JAVA/hotel-management-system) | [C++ Code](./cpp/hotel-management-system) | [Java Video](#) | [C++ Video](#) |
-| [Restaurant Management System](JAVA/restaurant-management-system) | [Java Code](JAVA/restaurant-management-system) | [C++ Code](./cpp/restaurant-management-system) | [Java Video](#) | [C++ Video](#) |
-| [Online Auction System](JAVA/online-auction-system) | [Java Code](JAVA/online-auction-system) | [C++ Code](./cpp/online-auction-system) | [Java Video](#) | [C++ Video](#) |
-| [Pub-Sub System](JAVA/pub-sub-system) | [Java Code](JAVA/pub-sub-system) | [C++ Code](./cpp/pub-sub-system) | [Java Video](#) | [C++ Video](#) |
-| [Rate Limiter](JAVA/rate-limiter) | [Java Code](JAVA/rate-limiter) | [C++ Code](./cpp/rate-limiter) | [Java Video](#) | [C++ Video](#) |
-| [URL Shortener](JAVA/url-shortener) | [Java Code](JAVA/url-shortener) | [C++ Code](./cpp/url-shortener) | [Java Video](#) | [C++ Video](#) |
-| [File System](JAVA/file-system) | [Java Code](JAVA/file-system) | [C++ Code](./cpp/file-system) | [Java Video](#) | [C++ Video](#) |
-| [Digital Wallet](JAVA/digital-wallet) | [Java Code](JAVA/digital-wallet) | [C++ Code](./cpp/digital-wallet) | [Java Video](#) | [C++ Video](#) |
-| [Tic-Tac-Toe](JAVA/tic-tac-toe) | [Java Code](JAVA/tic-tac-toe) | [C++ Code](./cpp/tic-tac-toe) | [Java Video](#) | [C++ Video](#) |
+| Problem | Java Solution | C++ Solution | Java Lecture     | C++ Lecture |
+|----------|--------------|--------------|------------------|--------------|
+| [Pub-Sub System](JAVA/pubsub) | [Java Code](JAVA/pubsub) | [C++ Code](./cpp/lru-cache) | [Lecture 09](https://www.youtube.com/watch?v=3pRdaRUe-nw&list=PL5DyztRVgtRXc38XDgmL34o1pp7U__hDK&index=7&pp=iAQB) | [C++ Video](#) |
+| [ATM](JAVA/atm) | [Java Code](JAVA/atm) | [C++ Code](./cpp/atm) | [Java Video](#)  | [C++ Video](#) |
+| [Elevator System](JAVA/elevator-system) | [Java Code](JAVA/elevator-system) | [C++ Code](./cpp/elevator-system) | [Java Video](#)  | [C++ Video](#) |
+| [Car Rental System](JAVA/car-rental-system) | [Java Code](JAVA/car-rental-system) | [C++ Code](./cpp/car-rental-system) | [Java Video](#)  | [C++ Video](#) |
+| [Library Management System](JAVA/library-management-system) | [Java Code](JAVA/library-management-system) | [C++ Code](./cpp/library-management-system) | [Java Video](#)  | [C++ Video](#) |
+| [Hotel Management System](JAVA/hotel-management-system) | [Java Code](JAVA/hotel-management-system) | [C++ Code](./cpp/hotel-management-system) | [Java Video](#)  | [C++ Video](#) |
+| [Restaurant Management System](JAVA/restaurant-management-system) | [Java Code](JAVA/restaurant-management-system) | [C++ Code](./cpp/restaurant-management-system) | [Java Video](#)  | [C++ Video](#) |
+| [Online Auction System](JAVA/online-auction-system) | [Java Code](JAVA/online-auction-system) | [C++ Code](./cpp/online-auction-system) | [Java Video](#)  | [C++ Video](#) |
+| [LRU Cache](JAVA/pub-sub-system) | [Java Code](JAVA/pub-sub-system) | [C++ Code](./cpp/pub-sub-system) | [Java Video](#)  | [C++ Video](#) |
+| [Rate Limiter](JAVA/rate-limiter) | [Java Code](JAVA/rate-limiter) | [C++ Code](./cpp/rate-limiter) | [Java Video](#)  | [C++ Video](#) |
+| [URL Shortener](JAVA/url-shortener) | [Java Code](JAVA/url-shortener) | [C++ Code](./cpp/url-shortener) | [Java Video](#)  | [C++ Video](#) |
+| [File System](JAVA/file-system) | [Java Code](JAVA/file-system) | [C++ Code](./cpp/file-system) | [Java Video](#)  | [C++ Video](#) |
+| [Digital Wallet](JAVA/digital-wallet) | [Java Code](JAVA/digital-wallet) | [C++ Code](./cpp/digital-wallet) | [Java Video](#)  | [C++ Video](#) |
+| [Tic-Tac-Toe](JAVA/tic-tac-toe) | [Java Code](JAVA/tic-tac-toe) | [C++ Code](./cpp/tic-tac-toe) | [Java Video](#)  | [C++ Video](#) |
 
 &nbsp;
 
