@@ -1,4 +1,4 @@
-package coffeemachine;
+package demo;
 
 import coffeemachine.core.CoffeeMachine;
 import coffeemachine.models.Beverage;
