@@ -33,6 +33,6 @@ public class Question extends Post {
 
     public String getTitle() { return title; }
     public int getVoteCount() { return voteCount.get(); }
-    public List<Answer> getAnswers() { return answers; }
+    public List<Answer> getAnswers() { return List.copyOf(answers); }
     public Set<Tag> getTags() { return Set.copyOf(tags); }
 }
