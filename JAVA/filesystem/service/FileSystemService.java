@@ -48,6 +48,23 @@ public class FileSystemService {
         dir.addNode(newDir);
     }
 
+    public void delete(String path) {
+        if (path.equals("/")) {
+            throw new InvalidOperationException("Cannot delete root directory");
+        }
+
+        // Split path into parent directory path and the target node name
+        // path = /download/input.txt
+        // parentPath = /download
+        // nodeName = input.txt
+        int lastSlash = path.lastIndexOf("/");
+        String parentPath = path.substring(0, Math.max(1, lastSlash));
+        String nodeName = path.substring(lastSlash + 1);
+
+        Directory parentDir = resolveDirectoryPath(parentPath);
+        parentDir.removeNode(nodeName);
+    }
+
     public void writeToFile(String path, String fileName, String content, boolean append) {
         Directory dir = resolveDirectoryPath(path);
         FileSystemNode node = dir.getChild(fileName);

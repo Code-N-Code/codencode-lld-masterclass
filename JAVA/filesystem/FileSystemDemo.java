@@ -19,6 +19,12 @@ public class FileSystemDemo {
         // Print the tree
         fs.printDirectoryTree("/");
 
+        // remove projects folder
+        fs.delete("/home/user/projects");
+
+        // Print the tree
+        fs.printDirectoryTree("/");
+
         String content = fs.readFromFile("/home/user", "notes.txt");
         System.out.println(content);
     }
