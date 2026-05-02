@@ -20,6 +20,8 @@ public class DoublyLinkedList<K, V> {
         head.next = node;
     }
 
+    // A -> B -> C
+    //   <-   <-
     public void removeNode(Node<K, V> node) {
         node.next.pre = node.pre;
         node.pre.next = node.next;
@@ -46,3 +48,20 @@ public class DoublyLinkedList<K, V> {
         return tail;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

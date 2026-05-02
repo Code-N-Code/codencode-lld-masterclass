@@ -26,6 +26,7 @@ public class LRUCache<K, V> {
         return node.value;
     }
 
+    // check - then - act
     public synchronized void put(K key, V value) {
         if (nodeMap.containsKey(key)) {
             Node<K, V> node = nodeMap.get(key);
