@@ -85,6 +85,7 @@ public class FileSystemService {
         return ((File) node).read();
     }
 
+    // Exercise 1: make changes to return size of file too.
     public int getPathSize(String path) {
         if (path.equals("/")) return root.getSize();
 
