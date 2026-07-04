@@ -13,7 +13,7 @@ import java.time.LocalDate;
 
 public class HotelManagementApp {
 
-     static void main(String[] args) {
+     static void main() {
         RoomCatalog roomCatalog = new RoomCatalog();
 
         RoomType deluxeRoom = new RoomType(
