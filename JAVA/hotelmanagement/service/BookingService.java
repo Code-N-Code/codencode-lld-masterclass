@@ -1,10 +1,10 @@
 package hotelmanagement.service;
 
-import com.hotel.lld.exception.HotelException;
-import com.hotel.lld.model.Booking;
-import com.hotel.lld.model.DateRange;
-import com.hotel.lld.model.RoomType;
-import com.hotel.lld.repository.BookingRepository;
+import hotelmanagement.exception.HotelException;
+import hotelmanagement.model.Booking;
+import hotelmanagement.model.DateRange;
+import hotelmanagement.model.RoomType;
+import hotelmanagement.repository.BookingRepository;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

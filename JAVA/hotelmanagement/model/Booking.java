@@ -1,6 +1,7 @@
 package hotelmanagement.model;
 
-import com.hotel.lld.exception.HotelException;
+
+import hotelmanagement.exception.HotelException;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

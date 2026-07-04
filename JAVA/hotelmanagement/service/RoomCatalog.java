@@ -1,7 +1,7 @@
 package hotelmanagement.service;
 
-import com.hotel.lld.exception.HotelException;
-import com.hotel.lld.model.RoomType;
+import hotelmanagement.exception.HotelException;
+import hotelmanagement.model.RoomType;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

@@ -1,25 +1,19 @@
 package hotelmanagement;
 
-import com.hotel.lld.model.Booking;
-import com.hotel.lld.model.DateRange;
-import com.hotel.lld.model.RoomType;
-import com.hotel.lld.repository.BookingRepository;
-import com.hotel.lld.repository.InMemoryBookingRepository;
-import com.hotel.lld.service.BasicPricingStrategy;
-import com.hotel.lld.service.BookingService;
-import com.hotel.lld.service.CancellationPolicy;
-import com.hotel.lld.service.FreeCancellationPolicy;
-import com.hotel.lld.service.InMemoryInventoryManager;
-import com.hotel.lld.service.InventoryManager;
-import com.hotel.lld.service.PricingStrategy;
-import com.hotel.lld.service.RoomCatalog;
+
+import hotelmanagement.model.Booking;
+import hotelmanagement.model.DateRange;
+import hotelmanagement.model.RoomType;
+import hotelmanagement.repository.BookingRepository;
+import hotelmanagement.repository.InMemoryBookingRepository;
+import hotelmanagement.service.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class HotelManagementApp {
 
-    public static void main(String[] args) {
+     static void main(String[] args) {
         RoomCatalog roomCatalog = new RoomCatalog();
 
         RoomType deluxeRoom = new RoomType(

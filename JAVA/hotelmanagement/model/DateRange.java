@@ -1,6 +1,6 @@
 package hotelmanagement.model;
 
-import com.hotel.lld.exception.HotelException;
+import hotelmanagement.exception.HotelException;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
