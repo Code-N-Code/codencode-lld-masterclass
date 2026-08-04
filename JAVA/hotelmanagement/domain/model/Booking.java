@@ -10,7 +10,7 @@ public class Booking {
 
     private final String id;
     private final String guestName;
-    private final String roomTypeId;
+    private final RoomType roomType;
     private final int quantity;
     private final DateRange dateRange;
     private final BigDecimal totalAmount;
@@ -20,7 +20,7 @@ public class Booking {
     public Booking(
             String id,
             String guestName,
-            String roomTypeId,
+            RoomType roomType,
             int quantity,
             DateRange dateRange,
             BigDecimal totalAmount
@@ -33,8 +33,8 @@ public class Booking {
             throw new HotelException("Guest name cannot be empty");
         }
 
-        if (roomTypeId == null || roomTypeId.isBlank()) {
-            throw new HotelException("Room type id cannot be empty");
+        if (roomType == null) {
+            throw new HotelException("Room type cannot be null");
         }
 
         if (quantity <= 0) {
@@ -51,7 +51,7 @@ public class Booking {
 
         this.id = id;
         this.guestName = guestName;
-        this.roomTypeId = roomTypeId;
+        this.roomType = roomType;
         this.quantity = quantity;
         this.dateRange = dateRange;
         this.totalAmount = totalAmount;
@@ -66,8 +66,8 @@ public class Booking {
         return guestName;
     }
 
-    public String getRoomTypeId() {
-        return roomTypeId;
+    public RoomType getRoomType() {
+        return roomType;
     }
 
     public int getQuantity() {
@@ -119,7 +119,7 @@ public class Booking {
         return "Booking{" +
                 "id='" + id + '\'' +
                 ", guestName='" + guestName + '\'' +
-                ", roomTypeId='" + roomTypeId + '\'' +
+                ", roomType=" + roomType +
                 ", quantity=" + quantity +
                 ", checkIn=" + dateRange.checkIn() +
                 ", checkOut=" + dateRange.checkOut() +

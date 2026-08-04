@@ -1,31 +1,25 @@
 package hotelmanagement.domain.model;
 
-import hotelmanagement.exception.HotelException;
-
 import java.math.BigDecimal;
 
-public record RoomType(
-        String id,
-        String name,
-        int totalRooms,
-        BigDecimal basePrice
-) {
+public enum RoomType {
+    STANDARD(10, new BigDecimal("3000")),
+    DELUXE(2, new BigDecimal("5000")),
+    SUITE(2, new BigDecimal("9000"));
 
-    public RoomType {
-        if (id == null || id.isBlank()) {
-            throw new HotelException("Room type id cannot be empty");
-        }
+    private final int totalRooms;
+    private final BigDecimal basePrice;
 
-        if (name == null || name.isBlank()) {
-            throw new HotelException("Room type name cannot be empty");
-        }
+    RoomType(int totalRooms, BigDecimal basePrice) {
+        this.totalRooms = totalRooms;
+        this.basePrice = basePrice;
+    }
 
-        if (totalRooms <= 0) {
-            throw new HotelException("Total rooms must be positive");
-        }
+    public int totalRooms() {
+        return totalRooms;
+    }
 
-        if (basePrice == null || basePrice.compareTo(BigDecimal.ZERO) < 0) {
-            throw new HotelException("Base price cannot be negative");
-        }
+    public BigDecimal basePrice() {
+        return basePrice;
     }
 }

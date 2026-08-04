@@ -16,7 +16,7 @@ public class InMemoryInventoryManager implements InventoryManager {
      *
      * reservedRooms:
      *
-     * roomTypeId -> date -> reserved count
+     * roomType -> date -> reserved count
      *
      * Example:
      *
@@ -24,7 +24,7 @@ public class InMemoryInventoryManager implements InventoryManager {
      * DELUXE -> 2026-07-02 -> 2
      * DELUXE -> 2026-07-03 -> 4
      */
-    private final Map<String, Map<LocalDate, Integer>> reservedRooms =
+    private final Map<RoomType, Map<LocalDate, Integer>> reservedRooms =
             new ConcurrentHashMap<>();
 
     @Override
@@ -36,7 +36,7 @@ public class InMemoryInventoryManager implements InventoryManager {
 
         Map<LocalDate, Integer> reservedByDate =
                 reservedRooms.getOrDefault(
-                        roomType.id(),
+                        roomType,
                         Collections.emptyMap()
                 );
 
@@ -68,7 +68,7 @@ public class InMemoryInventoryManager implements InventoryManager {
 
         Map<LocalDate, Integer> reservedByDate =
                 reservedRooms.computeIfAbsent(
-                        roomType.id(),
+                        roomType,
                         key -> new ConcurrentHashMap<>()
                 );
 
@@ -87,8 +87,7 @@ public class InMemoryInventoryManager implements InventoryManager {
             throw new HotelException("Quantity must be positive");
         }
 
-        Map<LocalDate, Integer> reservedByDate =
-                reservedRooms.get(roomType.id());
+        Map<LocalDate, Integer> reservedByDate = reservedRooms.get(roomType);
 
         if (reservedByDate == null) {
             throw new HotelException("No reserved inventory found for room type");

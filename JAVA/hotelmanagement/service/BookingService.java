@@ -14,7 +14,6 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class BookingService {
 
-    private final RoomCatalog roomCatalog;
     private final InventoryManager inventoryManager;
     private final PricingStrategy pricingStrategy;
     private final CancellationPolicy cancellationPolicy;
@@ -23,13 +22,11 @@ public class BookingService {
     private final AtomicLong bookingSequence = new AtomicLong(1);
 
     public BookingService(
-            RoomCatalog roomCatalog,
             InventoryManager inventoryManager,
             PricingStrategy pricingStrategy,
             CancellationPolicy cancellationPolicy,
             BookingRepository bookingRepository
     ) {
-        this.roomCatalog = roomCatalog;
         this.inventoryManager = inventoryManager;
         this.pricingStrategy = pricingStrategy;
         this.cancellationPolicy = cancellationPolicy;
@@ -37,17 +34,15 @@ public class BookingService {
     }
 
     public int searchAvailability(
-            String roomTypeId,
+            RoomType roomType,
             DateRange dateRange
     ) {
-        RoomType roomType = roomCatalog.getRoomType(roomTypeId);
-
         return inventoryManager.getAvailableRooms(roomType, dateRange);
     }
 
     public Booking book(
             String guestName,
-            String roomTypeId,
+            RoomType roomType,
             int quantity,
             DateRange dateRange
     ) {
@@ -59,8 +54,6 @@ public class BookingService {
             throw new HotelException("Quantity must be positive");
         }
 
-        RoomType roomType = roomCatalog.getRoomType(roomTypeId);
-
         BigDecimal totalAmount = pricingStrategy.calculatePrice(
                 roomType,
                 dateRange,
@@ -70,7 +63,7 @@ public class BookingService {
         Booking booking = new Booking(
                 generateBookingId(),
                 guestName,
-                roomTypeId,
+                roomType,
                 quantity,
                 dateRange,
                 totalAmount
@@ -94,10 +87,8 @@ public class BookingService {
 
         booking.cancel();
 
-        RoomType roomType = roomCatalog.getRoomType(booking.getRoomTypeId());
-
         inventoryManager.release(
-                roomType,
+                booking.getRoomType(),
                 booking.getDateRange(),
                 booking.getQuantity()
         );
