@@ -1,4 +1,4 @@
-package hotelmanagement.model;
+package hotelmanagement.domain.model;
 
 public enum BookingStatus {
     CONFIRMED,

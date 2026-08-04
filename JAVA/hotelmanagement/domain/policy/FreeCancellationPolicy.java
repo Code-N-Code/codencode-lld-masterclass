@@ -1,8 +1,8 @@
-package hotelmanagement.service;
+package hotelmanagement.domain.policy;
 
 import hotelmanagement.exception.HotelException;
-import hotelmanagement.model.Booking;
-import hotelmanagement.model.BookingStatus;
+import hotelmanagement.domain.model.Booking;
+import hotelmanagement.domain.model.BookingStatus;
 
 public class FreeCancellationPolicy implements CancellationPolicy {
 

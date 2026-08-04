@@ -1,6 +1,6 @@
 package hotelmanagement.repository;
 
-import hotelmanagement.model.Booking;
+import hotelmanagement.domain.model.Booking;
 
 import java.util.Map;
 import java.util.Optional;

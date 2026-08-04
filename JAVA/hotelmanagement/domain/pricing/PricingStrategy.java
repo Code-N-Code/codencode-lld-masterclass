@@ -1,7 +1,7 @@
-package hotelmanagement.service;
+package hotelmanagement.domain.pricing;
 
-import hotelmanagement.model.DateRange;
-import hotelmanagement.model.RoomType;
+import hotelmanagement.domain.model.DateRange;
+import hotelmanagement.domain.model.RoomType;
 
 import java.math.BigDecimal;
 

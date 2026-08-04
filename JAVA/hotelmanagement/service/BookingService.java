@@ -1,9 +1,11 @@
 package hotelmanagement.service;
 
+import hotelmanagement.domain.policy.CancellationPolicy;
+import hotelmanagement.domain.pricing.PricingStrategy;
 import hotelmanagement.exception.HotelException;
-import hotelmanagement.model.Booking;
-import hotelmanagement.model.DateRange;
-import hotelmanagement.model.RoomType;
+import hotelmanagement.domain.model.Booking;
+import hotelmanagement.domain.model.DateRange;
+import hotelmanagement.domain.model.RoomType;
 import hotelmanagement.repository.BookingRepository;
 
 import java.math.BigDecimal;

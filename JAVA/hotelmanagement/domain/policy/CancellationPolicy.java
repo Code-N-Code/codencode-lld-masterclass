@@ -1,6 +1,6 @@
-package hotelmanagement.service;
+package hotelmanagement.domain.policy;
 
-import hotelmanagement.model.Booking;
+import hotelmanagement.domain.model.Booking;
 
 public interface CancellationPolicy {
 

@@ -1,7 +1,7 @@
 package hotelmanagement.service;
 
-import hotelmanagement.model.DateRange;
-import hotelmanagement.model.RoomType;
+import hotelmanagement.domain.model.DateRange;
+import hotelmanagement.domain.model.RoomType;
 
 public interface InventoryManager {
 
