@@ -1,7 +1,5 @@
 package amazon.model;
 
-import amazon.exception.InvalidQuantityException;
-
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,27 +11,23 @@ public class Cart {
         this.items = new HashMap<>();
     }
 
-    public void addItem(Product product, int quantity) {
-
+    public synchronized void addItem(Product product, int quantity) {
         if (product == null || product.getId() == null) {
             throw new IllegalArgumentException("Product and Product ID must not be null");
         }
-
-        // Atomic update per product key
-        items.compute(product.getId(), (id, existingItem) -> {
-            if (existingItem == null) {
-                return new CartItem(product, quantity);
-            }
+        CartItem existingItem = items.get(product.getId());
+        if (existingItem == null) {
+            items.put(product.getId(), new CartItem(product, quantity));
+        } else {
             existingItem.addQuantity(quantity);
-            return existingItem;
-        });
+        }
     }
 
-    public void clear() { items.clear(); }
+    public synchronized void clear() { items.clear(); }
 
-    public Map<String, CartItem> getItems() { return Collections.unmodifiableMap(items); }
+    public synchronized Map<String, CartItem> getItems() { return Collections.unmodifiableMap(items); }
 
-    public double calculateTotal() {
+    public synchronized double calculateTotal() {
         return items.values().stream()
                 .mapToDouble(item -> item.getProduct().getPrice() * item.getQuantity())
                 .sum();
